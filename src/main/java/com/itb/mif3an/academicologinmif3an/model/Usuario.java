@@ -3,7 +3,6 @@ package com.itb.mif3an.academicologinmif3an.model;
 import java.time.LocalDate;
 import java.util.Collection;
 
-import javax.annotation.Generated;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -15,8 +14,6 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
-
-import org.hibernate.annotations.ManyToAny;
 
 @Entity
 @Table(name="usuarios", uniqueConstraints = @UniqueConstraint(columnNames = "email"))

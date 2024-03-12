@@ -40,7 +40,22 @@ public class Usuario {
 			)
 	
 	
-	private Collection<Papel> papeis;	
+	private Collection<Papel> papeis;
+	
+	private Usuario() {
+		
+	}
+	
+	public Usuario(String nome, String sobrenome, String password, String email, Collection<Papel> papeis) {
+		
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+		this.email = email;
+		this.password = password;
+		this.papeis = papeis;
+		
+		
+	}
 	
 	public Collection<Papel> getPapeis() {
 		return papeis;

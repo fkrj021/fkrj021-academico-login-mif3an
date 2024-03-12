@@ -11,5 +11,11 @@ public interface UsuarioService extends UserDetailsService {
 	Usuario findByEmail(String email);
 
 	
+	Usuario save(Usuario usuario);
+	
+	
+	void addRoleToUser(String username, String roleNome);
+	
+	
 	
 }

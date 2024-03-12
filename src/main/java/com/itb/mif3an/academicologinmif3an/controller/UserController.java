@@ -7,14 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 // @RestController Controlador para API
 
-@Controller // Controlador para appWeb
-@RequestMapping("/academico")
+//@Controller // Controlador para appWeb
+//@RequestMapping("/academico")
 public class UserController {
 	
-	@GetMapping("/login")
-	public String login() {
-		
-		return "login";
-	}
+	
 	
 }
